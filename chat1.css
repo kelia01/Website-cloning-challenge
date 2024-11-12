@@ -1,0 +1,84 @@
+.search-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+/* Heading styling */
+.search-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling for the search box container */
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+/* Styling for each input box */
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Styling for labels */
+.label {
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+/* Input fields styling */
+.box input[type="text"],
+.box input[type="number"] {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+/* Guests text next to number input */
+.guest-count {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* Styling for the search button */
+.search-button {
+    padding: 12px 24px;
+    background-color: #1f1f1f;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-button:hover {
+    background-color: #333;
+}
+
+/* Align labels and inputs for inline appearance */
+.box label,
+.box input {
+    display: inline-block;
+    margin-right: 5px;
+}

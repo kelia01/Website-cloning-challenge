@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chat1.css">
+    <title>fewo-direkt</title>
+</head>
+<body>
+    <div class="web-container">
+    <nav>FeWo-direkt</nav>
+    <nav>Download the app</nav>
+    <nav>My Travels</nav>
+    <nav>Register</nav>
+    </div>
+<section class="search-section">
+    <h2>Everything is fine, you book with FeWo-direkt</h2>
+    <div class="search-box">
+        <!-- Destination Box -->
+        <div class="box">
+            <label for="destination" class="label">Where should we go?</label>
+            <input type="text" id="destination" placeholder="Destination">
+        </div>
+
+        <!-- Dates Box -->
+        <div class="box">
+            <label for="dates" class="label">Dates</label>
+            <input type="text" id="dates" placeholder="Check-in - Check-out">
+        </div>
+
+        <!-- Guests Box -->
+        <div class="box">
+            <label for="guests" class="label">Guests</label>
+            <input type="number" id="guests" value="2" min="1">
+            <span class="guest-count">2 travelers</span>
+        </div>
+
+        <!-- Seek Button -->
+        <button type="submit" class="search-button">Seek</button>
+    </div>
+</section>
+</body>
+</html>
